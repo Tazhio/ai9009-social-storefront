@@ -36,6 +36,13 @@ const nextConfig = {
         protocol: "https",
         hostname: "medusa-server-testing.s3.us-east-1.amazonaws.com",
       },
+      {
+        protocol: 'https',
+        hostname: 'eofuzsdqpzqzqyxerzlc.supabase.co',
+        port: '',
+        pathname: '/storage/v1/object/public/**',
+        search: '',
+      },
     ],
   },
 }
